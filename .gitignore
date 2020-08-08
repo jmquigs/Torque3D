@@ -39,11 +39,13 @@ local.properties
 # User-specific files
 *.suo
 *.user
-*.sln.docstates
-*.sln
-*.vcxproj
-*.vcxproj.filters
-*.vcproj
+
+
+#*.sln.docstates
+#*.sln
+#*.vcxproj
+#**.vcxproj.filters
+#**.vcproj
 
 
 # Build results
@@ -191,3 +193,5 @@ Templates/Full/buildFiles/VisualStudio 2012/.vs
 *.uft
 terrains\*.jpg
 **/terrains/*basetex.jpg
+Templates/**/VisualStudio 2010/*
+Templates/**/VisualStudio 2008/*
