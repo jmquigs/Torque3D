@@ -183,3 +183,11 @@ My Projects/
 Project Manager.exe
 projects.xml
 Qt*.dll
+
+# JMQ changes
+Templates/Full/buildFiles/VisualStudio 2010/.vs
+Templates/Full/buildFiles/VisualStudio 2012/.vs
+*.mis.decals
+*.uft
+terrains\*.jpg
+**/terrains/*basetex.jpg

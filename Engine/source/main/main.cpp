@@ -26,6 +26,7 @@
 
 #include <windows.h>
 #include <string>
+#include <locale.h>
 
 extern "C"
 {

@@ -19,7 +19,7 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 //-----------------------------------------------------------------------------
-
+#if defined(TORQUE_SDL)
 #include "console/simBase.h"
 #include "platform/nativeDialogs/fileDialog.h"
 #include "platform/threads/mutex.h"
@@ -32,6 +32,7 @@
 #include <nfd.h>
 #include "core/strings/stringUnit.h"
 #include "core/frameAllocator.h"
+#endif 
 
 #if defined(TORQUE_SDL)
 //-----------------------------------------------------------------------------
