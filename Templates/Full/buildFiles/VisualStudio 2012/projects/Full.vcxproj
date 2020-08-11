@@ -16,24 +16,24 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-   <RootNamespace>Full</RootNamespace>
+    <RootNamespace>Full</RootNamespace>
     <ProjectGuid>{CDECDFF9-E125-523F-87BC-2D89DB971CAB}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -219,23 +219,15 @@
     <ResourceCompile Include="Torque.rc" />
   </ItemGroup>
   <ItemGroup>
-
-               
-               
-               			                     <ClCompile Include="..\..\..\..\..\Engine\source\main\main.cpp" />      
-			         
-			      
-   
-      
-      
+    <ClCompile Include="..\..\..\..\..\Engine\source\main\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-      <ProjectReference Include="Full DLL.vcxproj">
+    <ProjectReference Include="Full DLL.vcxproj">
       <Project>{C0FCDFF9-E125-412E-87BC-2D89DB971CAB}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-     </ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-</Project>
+</Project>

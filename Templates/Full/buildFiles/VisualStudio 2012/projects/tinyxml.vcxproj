@@ -22,17 +22,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -84,7 +84,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <CompileAs>Default</CompileAs>
-      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>      
+      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -167,44 +167,16 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-
-               
-               
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\tinyxml\tinystr.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\tinyxml\tinystr.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\tinyxml\tinyxml.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\tinyxml\tinyxml.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\tinyxml\tinyxmlerror.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\tinyxml\tinyxmlparser.cpp" />      
-			         
-			      
-   
-      
-      
+    <ClCompile Include="..\..\..\..\..\Engine\lib\tinyxml\tinystr.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\tinyxml\tinystr.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\tinyxml\tinyxml.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\tinyxml\tinyxml.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\tinyxml\tinyxmlparser.cpp" />
   </ItemGroup>
   <ItemGroup>
-    </ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-</Project>
+</Project>

@@ -22,17 +22,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -84,7 +84,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <CompileAs>Default</CompileAs>
-      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>      
+      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -167,219 +167,51 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-
-               
-               
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_callback_xs.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunks.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_descr.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_descr.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_io.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_io.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_prc.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_prc.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_xs.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_cms.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_cms.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_conf.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_data.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_display.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_display.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_dither.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_dither.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_error.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_error.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_filter.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_filter.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_hlapi.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_jpeg.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_jpeg.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_memory.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_objects.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_object_prc.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_object_prc.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_pixels.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_pixels.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_prop_xs.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_read.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_read.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_trace.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_trace.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_types.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_write.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_write.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_zlib.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_zlib.h" />      
-			         
-			      
-   
-      
-      
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_callback_xs.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunks.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_descr.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_descr.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_io.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_io.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_prc.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_prc.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_xs.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_cms.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_cms.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_conf.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_data.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_display.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_display.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_dither.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_dither.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_error.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_error.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_filter.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_filter.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_hlapi.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_jpeg.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_jpeg.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_memory.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_objects.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_object_prc.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_object_prc.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_pixels.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_pixels.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_prop_xs.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_read.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_read.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_trace.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_trace.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_types.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_write.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_write.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_zlib.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_zlib.h" />
   </ItemGroup>
   <ItemGroup>
-    </ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-</Project>
+</Project>

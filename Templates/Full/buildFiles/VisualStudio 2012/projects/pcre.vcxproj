@@ -22,17 +22,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -84,7 +84,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <CompileAs>Default</CompileAs>
-      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>      
+      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -167,189 +167,45 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-
-               
-               
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\config.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcre.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcrecpp.cc" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcrecpp.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcrecpparg.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcrecpp_internal.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcreposix.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_chartables.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_compile.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_config.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_dfa_exec.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_exec.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_fullinfo.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_get.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_globals.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_info.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcre_internal.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_maketables.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_newline.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_ord2utf8.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_refcount.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_scanner.cc" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcre_scanner.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_stringpiece.cc" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcre_stringpiece.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_study.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_tables.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_try_flipped.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_ucp_searchfuncs.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_valid_utf8.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_version.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_xclass.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\ucp.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\ucpinternal.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\ucptable.h" />      
-			         
-			      
-   
-      
-      
+    <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\config.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcre.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcrecpp.cc" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcrecpp.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcrecpparg.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcrecpp_internal.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcreposix.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_chartables.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_compile.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_config.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_dfa_exec.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_exec.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_fullinfo.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_get.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_globals.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_info.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcre_internal.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_maketables.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_newline.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_ord2utf8.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_refcount.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_scanner.cc" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcre_scanner.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_stringpiece.cc" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\pcre_stringpiece.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_study.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_tables.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_try_flipped.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_ucp_searchfuncs.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_valid_utf8.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_version.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\pcre\pcre_xclass.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\ucp.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\ucpinternal.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\pcre\ucptable.h" />
   </ItemGroup>
   <ItemGroup>
-    </ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-</Project>
+</Project>

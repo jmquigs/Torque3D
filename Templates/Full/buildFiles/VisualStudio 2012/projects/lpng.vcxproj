@@ -22,17 +22,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -84,7 +84,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <CompileAs>Default</CompileAs>
-      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>      
+      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -167,129 +167,33 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-
-               
-               
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\png.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\png.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pngconf.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pngdebug.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngerror.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngget.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pnginfo.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pnglibconf.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngmem.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngpread.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pngpriv.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngread.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngrio.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngrtran.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngrutil.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngset.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pngstruct.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngtest.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngtrans.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngwio.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngwrite.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngwtran.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngwutil.c" />      
-			         
-			      
-   
-      
-      
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\png.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\png.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pngconf.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pngdebug.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngerror.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngget.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pnginfo.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pnglibconf.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngmem.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngpread.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pngpriv.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngread.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngrio.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngrtran.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngrutil.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngset.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pngstruct.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngtest.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngtrans.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngwio.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngwrite.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngwtran.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngwutil.c" />
   </ItemGroup>
   <ItemGroup>
-    </ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-</Project>
+</Project>

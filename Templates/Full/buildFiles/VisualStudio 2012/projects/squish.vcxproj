@@ -22,17 +22,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -84,7 +84,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <CompileAs>Default</CompileAs>
-      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>      
+      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -167,134 +167,34 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-
-               
-               
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\squish\alpha.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\alpha.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\squish\clusterfit.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\clusterfit.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\squish\colourblock.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\colourblock.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\squish\colourfit.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\colourfit.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\squish\colourset.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\colourset.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\config.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\squish\maths.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\maths.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\squish\rangefit.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\rangefit.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\simd.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\simd_float.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\simd_sse.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\simd_ve.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\squish\singlecolourfit.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\singlecolourfit.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\singlecolourlookup.inl" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\squish\squish.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\squish\squish.h" />      
-			         
-			      
-   
-      
-      
+    <ClCompile Include="..\..\..\..\..\Engine\lib\squish\alpha.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\alpha.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\squish\clusterfit.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\clusterfit.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\squish\colourblock.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\colourblock.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\squish\colourfit.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\colourfit.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\squish\colourset.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\colourset.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\config.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\squish\maths.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\maths.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\squish\rangefit.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\rangefit.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\simd.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\simd_float.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\simd_sse.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\simd_ve.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\squish\singlecolourfit.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\singlecolourfit.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\singlecolourlookup.inl" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\squish\squish.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\squish\squish.h" />
   </ItemGroup>
   <ItemGroup>
-    </ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-</Project>
+</Project>

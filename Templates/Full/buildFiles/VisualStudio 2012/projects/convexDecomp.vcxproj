@@ -22,17 +22,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -84,7 +84,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <CompileAs>Default</CompileAs>
-      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>      
+      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -167,134 +167,34 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-
-               
-               
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvConcavityVolume.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvConcavityVolume.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvConvexDecomposition.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvConvexDecomposition.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvFloatMath.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvFloatMath.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvFloatMath.inl" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvHashMap.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvMeshIslandGeneration.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvMeshIslandGeneration.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvRayCast.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvRayCast.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvRemoveTjunctions.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvRemoveTjunctions.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvSimpleTypes.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvSplitMesh.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvSplitMesh.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvStanHull.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvStanHull.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvThreadConfig.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvThreadConfig.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvUserMemAlloc.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\wavefront.cpp" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\wavefront.h" />      
-			         
-			      
-   
-      
-      
+    <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvConcavityVolume.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvConcavityVolume.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvConvexDecomposition.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvConvexDecomposition.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvFloatMath.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvFloatMath.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvFloatMath.inl" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvHashMap.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvMeshIslandGeneration.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvMeshIslandGeneration.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvRayCast.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvRayCast.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvRemoveTjunctions.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvRemoveTjunctions.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvSimpleTypes.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvSplitMesh.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvSplitMesh.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvStanHull.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvStanHull.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\NvThreadConfig.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvThreadConfig.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\NvUserMemAlloc.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\convexDecomp\wavefront.cpp" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\convexDecomp\wavefront.h" />
   </ItemGroup>
   <ItemGroup>
-    </ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-</Project>
+</Project>

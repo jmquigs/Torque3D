@@ -22,17 +22,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -84,7 +84,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <CompileAs>Default</CompileAs>
-      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>      
+      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -167,319 +167,71 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-
-               
-               
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcapimin.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcapistd.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jccoefct.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jccolor.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcdctmgr.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jchuff.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jchuff.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcinit.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcmainct.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcmarker.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcmaster.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcomapi.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.cw.mac.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.cw.win.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.gcc.linux.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.vc.win.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcparam.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcphuff.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcprepct.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcsample.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jctrans.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdapimin.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdapistd.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdatadst.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdatasrc.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdcoefct.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdcolor.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jdct.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jddctmgr.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdhuff.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jdhuff.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdinput.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdmainct.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdmarker.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdmaster.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdmerge.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdphuff.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdpostct.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdsample.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdtrans.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jerror.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jerror.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jfdctflt.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jfdctfst.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jfdctint.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jidctflt.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jidctfst.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jidctint.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jidctred.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jinclude.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jmemmgr.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jmemnobs.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jmemsys.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jmorecfg.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jpegint.h" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jpeglib.h" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jquant1.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jquant2.c" />      
-			         
-			      
-   
-      
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jutils.c" />      
-			         
-			      
-   
-      
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jversion.h" />      
-			         
-			      
-   
-      
-      
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcapimin.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcapistd.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jccoefct.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jccolor.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcdctmgr.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jchuff.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jchuff.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcinit.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcmainct.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcmarker.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcmaster.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcomapi.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.cw.mac.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.cw.win.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.gcc.linux.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.vc.win.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcparam.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcphuff.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcprepct.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcsample.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jctrans.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdapimin.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdapistd.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdatadst.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdatasrc.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdcoefct.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdcolor.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jdct.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jddctmgr.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdhuff.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jdhuff.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdinput.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdmainct.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdmarker.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdmaster.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdmerge.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdphuff.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdpostct.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdsample.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdtrans.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jerror.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jerror.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jfdctflt.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jfdctfst.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jfdctint.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jidctflt.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jidctfst.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jidctint.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jidctred.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jinclude.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jmemmgr.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jmemnobs.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jmemsys.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jmorecfg.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jpegint.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jpeglib.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jquant1.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jquant2.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jutils.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jversion.h" />
   </ItemGroup>
   <ItemGroup>
-    </ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-</Project>
+</Project>

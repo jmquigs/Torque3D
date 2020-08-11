@@ -22,17 +22,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-	<PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -84,7 +84,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <CompileAs>Default</CompileAs>
-      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>      
+      <DisableSpecificWarnings>4244;4305;4530;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -167,248 +167,56 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-
-               
-               
-               
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\include\theora\codec.h" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\include\theora\theora.h" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\include\theora\theoradec.h" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\include\theora\theoraenc.h" />      
-				         
-				      
-   
-      
-      
-               
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\analyze.c" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\apiwrapper.c" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\apiwrapper.h" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\bitpack.c" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\bitpack.h" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\cpu.c" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\cpu.h" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\dct.h" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\decapiwrapper.c" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\decinfo.c" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\decint.h" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\decode.c" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\dequant.c" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\dequant.h" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\encapiwrapper.c" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\encfrag.c" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\encinfo.c" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\encint.h" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\encode.c" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\enquant.c" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\enquant.h" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\fdct.c" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\fragment.c" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\huffdec.c" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\huffdec.h" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\huffenc.c" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\huffenc.h" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\huffman.h" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\idct.c" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\info.c" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\internal.c" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\internal.h" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\mathops.c" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\mathops.h" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\mcenc.c" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\modedec.h" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\ocintrin.h" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\quant.c" />      
-				         
-				      
-   
-      
-               				                     <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\quant.h" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\rate.c" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\state.c" />      
-				         
-				      
-   
-      
-               				                     <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\tokenize.c" />      
-				         
-				      
-   
-      
-      
-      
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\include\theora\codec.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\include\theora\theora.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\include\theora\theoradec.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\include\theora\theoraenc.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\analyze.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\apiwrapper.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\apiwrapper.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\bitpack.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\bitpack.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\cpu.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\cpu.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\dct.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\decapiwrapper.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\decinfo.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\decint.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\decode.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\dequant.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\dequant.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\encapiwrapper.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\encfrag.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\encinfo.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\encint.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\encode.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\enquant.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\enquant.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\fdct.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\fragment.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\huffdec.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\huffdec.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\huffenc.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\huffenc.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\huffman.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\idct.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\info.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\internal.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\internal.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\mathops.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\mathops.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\mcenc.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\modedec.h" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\ocintrin.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\quant.c" />
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libtheora\lib\quant.h" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\rate.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\state.c" />
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libtheora\lib\tokenize.c" />
   </ItemGroup>
   <ItemGroup>
-    </ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-</Project>
+</Project>
