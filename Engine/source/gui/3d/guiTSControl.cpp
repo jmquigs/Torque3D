@@ -437,7 +437,7 @@ void GuiTSCtrl::_internalRender(RectI guiViewport, RectI renderViewport, Frustum
       if (device)
       {
          //GFX->setupGenericShaders();
-         GFX->disableShaders();
+         GFX->disableShaders(true);
 
          //static bool once = false;
          //static GFXStateBlockRef mRenderZOnSB;
@@ -455,6 +455,8 @@ void GuiTSCtrl::_internalRender(RectI guiViewport, RectI renderViewport, Frustum
          GFX->setViewport(mSaveViewport);
          GFX->setProjectionMatrix(mSaveProjection);
          GFX->setFrustum(mSaveFrustum);
+
+         GFX->updateStates(true);
 
          void* d3ddevice = device->getDevice();
          gPGERender3D(d3ddevice);
