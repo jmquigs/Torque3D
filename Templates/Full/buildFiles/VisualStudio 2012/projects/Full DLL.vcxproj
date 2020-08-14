@@ -1553,7 +1553,6 @@
     <ClInclude Include="..\..\..\..\..\Engine\source\platform\menus\menuBar.h" />
     <ClCompile Include="..\..\..\..\..\Engine\source\platform\menus\popupMenu.cpp" />
     <ClInclude Include="..\..\..\..\..\Engine\source\platform\menus\popupMenu.h" />
-    <ClCompile Include="..\..\..\..\..\Engine\source\platform\nativeDialogs\fileDialog.cpp" />
     <ClInclude Include="..\..\..\..\..\Engine\source\platform\nativeDialogs\fileDialog.h" />
     <ClCompile Include="..\..\..\..\..\Engine\source\platform\nativeDialogs\msgBox.cpp" />
     <ClInclude Include="..\..\..\..\..\Engine\source\platform\nativeDialogs\msgBox.h" />

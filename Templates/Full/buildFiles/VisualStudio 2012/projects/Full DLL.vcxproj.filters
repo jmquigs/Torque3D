@@ -2205,9 +2205,6 @@
     <ClCompile Include="..\..\..\..\..\Engine\source\platform\menus\popupMenu.cpp">
       <Filter>Source Files\Engine\platform\menus</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Engine\source\platform\nativeDialogs\fileDialog.cpp">
-      <Filter>Source Files\Engine\platform\nativeDialogs</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\..\Engine\source\platform\nativeDialogs\msgBox.cpp">
       <Filter>Source Files\Engine\platform\nativeDialogs</Filter>
     </ClCompile>

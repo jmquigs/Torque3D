@@ -24,6 +24,15 @@
 // initializeCore
 // Initializes core game functionality.
 //---------------------------------------------------------------------------------------------
+
+function actionReloadPGE( %val )
+{
+   if ( %val == 0 )
+      return;      
+
+   reloadPGE();
+}
+
 function initializeCore()
 {
    // Not Reentrant
@@ -33,6 +42,7 @@ function initializeCore()
    // Core keybindings.
    GlobalActionMap.bind(keyboard, tilde, toggleConsole);
    GlobalActionMap.bind(keyboard, "ctrl p", doScreenShot);
+   GlobalActionMap.bind(keyboard, "ctrl r", actionReloadPGE);
    GlobalActionMap.bindcmd(keyboard, "alt enter", "Canvas.attemptFullscreenToggle();","");
    GlobalActionMap.bindcmd(keyboard, "alt k", "cls();",  "");
 //   GlobalActionMap.bindCmd(keyboard, "escape", "", "handleEscape();");

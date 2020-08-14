@@ -197,3 +197,4 @@ Templates/**/VisualStudio 2010/*
 Templates/**/VisualStudio 2008/*
 Templates/Full/buildFiles/Link
 .ionide/symbolCache.db
+Templates/Full/game/tools/settings.xml
